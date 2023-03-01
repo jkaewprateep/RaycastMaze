@@ -41,10 +41,16 @@ from pygame.constants import K_w, K_a, K_d, K_s, K_h # KeyPad constants
 | File name | Description |
 | --- | --- |
 | 01.png | Screen shot |
+| ezgif.com-video-to-gif.gif | GIF image |
 | sample.py | Sample Codes |
 | README.md | Readme file |
+
 
 ### References ###
 Ref[0]: https://www.pygame.org/docs/ref/draw.html#pygame.draw.line
 
 ![Sample](https://github.com/jkaewprateep/RaycastMaze/blob/main/01.png "Sample")
+
+![Sample](https://github.com/jkaewprateep/RaycastMaze/blob/main/ezgif.com-video-to-gif.gif "Sample")
+
+
