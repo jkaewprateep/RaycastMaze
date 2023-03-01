@@ -2,7 +2,7 @@
 RaycastMaze for current PyGame and PyDraw versions 2.1.0
 
 ### Game problem and re-solution ###
-Decide from game input to output ( solution ), continue of arrays with dimension ( 512, 512, 3 ) streams with running of both side of wall object and fencing random when player move with PyGame constant ```actions = { "none_1": K_h, "left_1": K_a, "down_1": K_s, "right1": K_d, "up___1": K_w }```
+Decide from game input to output ( solution ), continue of arrays with dimension ( 512, 512, 3 ) streams as running of both side of wall object and fencing random when player move with PyGame constant ```actions = { "none_1": K_h, "left_1": K_a, "down_1": K_s, "right1": K_d, "up___1": K_w }```
 
 ### Correct function map with PyDraw Input definition ###
 
