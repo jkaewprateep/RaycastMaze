@@ -49,6 +49,12 @@ from pygame.constants import K_w, K_a, K_d, K_s, K_h # KeyPad constants
 ### References ###
 Ref[0]: https://www.pygame.org/docs/ref/draw.html#pygame.draw.line
 
+### Result ###
+
+
+#### Start from initial game and test it  ####
+Solved first problem, game does not compatible with current PyGame versions by PyDraw input definition.
+
 ![Sample](https://github.com/jkaewprateep/RaycastMaze/blob/main/01.png "Sample")
 
 ![Sample](https://github.com/jkaewprateep/RaycastMaze/blob/main/ezgif.com-video-to-gif.gif "Sample")
