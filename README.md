@@ -6,6 +6,8 @@ Decide from game input to output ( solution ), continue of arrays with dimension
 
 The problem is find a red block from both side of walls, input is array of screens and action. By summing up multiple records of screen and action you can predict the result from one record input to find a red block as the game purpose. ``` screen + action = YES|NO ``` Apply this problem, you can identify of inputs to result by adding some value as white colour to red colour ( R, G B ) arrays.
 
+🧸💬 Scores or not scores system depending on catagory type see this input ``` dataset = tf.constant([ DATA, LABEL ]) ``` when DATA is ``` tf.constant([ dim_1, dim_2, dim_3 ]) ``` mean single data or you can create stack input with ``` DATA = tf.experimental.numpy.vstack([DATA, DATA_row]) ```
+
 | Problem types | Description | Learning speed AI, unsupervised |
 | --- | --- | --- |
 | Identify significant object | Sample arcades games with CONV layers input | Fast, Required data preparation |
