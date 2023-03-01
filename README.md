@@ -12,6 +12,14 @@ for i in range(len(c)):
     pygame.draw.line(self.screen, color, p0, p1, self.resolution)
 ```
 
+```
+import ple
+from ple import PLE
+# from ple.games.raycast import RayCastPlayer # Player class
+from ple.games.raycastmaze import RaycastMaze # Game class
+from pygame.constants import K_w, K_a, K_d, K_s, K_h # KeyPad constants
+```
+
 ### Files and Directory ###
 | File name | Description |
 | --- | --- |
