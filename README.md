@@ -12,6 +12,14 @@ for i in range(len(c)):
     pygame.draw.line(self.screen, color, p0, p1, self.resolution)
 ```
 
+### Files and Directory ###
+| File name | Description |
+| --- | --- |
+| 01.png | Screen shot |
+| sample.py | Sample Codes |
+| README.md | Readme file |
+
+### References ###
 Ref[0]: https://www.pygame.org/docs/ref/draw.html#pygame.draw.line
 
 ![Sample](https://github.com/jkaewprateep/RaycastMaze/blob/main/01.png "Sample")
