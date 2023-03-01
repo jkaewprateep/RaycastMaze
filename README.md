@@ -1,5 +1,5 @@
 # RaycastMaze ( Drafting ... )
-RaycastMaze for current PyGame and PyDraw versions
+RaycastMaze for current PyGame and PyDraw versions 2.1.0
 
 ### Correct function map with PyDraw Input definition ###
 
@@ -7,6 +7,8 @@ RaycastMaze for current PyGame and PyDraw versions
 | --- | --- |
 | line(surface, color, start_pos, end_pos) -> Rect | Draws a straight line on the given surface. There are no endcaps. For thick lines the ends are squared off. |
 | line(surface, color, start_pos, end_pos, width=1) -> Rect | Draws a straight line on the given surface. There are no endcaps. For thick lines the ends are squared off. |
+| start_pos (tuple(int or float, int or float) or list(int or float, int or float) or Vector2(int or float, int or float)) | start position of the line, (x, y) |
+| end_pos (tuple(int or float, int or float) or list(int or float, int or float) or Vector2(int or float, int or float)) | end position of the line, (x, y) |
 
 
 ### raycastmaze.py ###
