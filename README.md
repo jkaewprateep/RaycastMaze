@@ -15,7 +15,7 @@ The problem is find a red block from both side of walls, input is array of scree
 🐐💬 You talked about that we found another sample when usin USB compatibility, camera and voice stream make sure you use it correct data transfer rates per versions.
 ( The problem of Repoo and Integrated camera and Google compatibility does not cause by Chrome or IE but the USB transfer rates, again they make it can usable by one port as they talking breaks all until one to solution )
 
-🥺💬 Lucky I think they did it but I use RedHat for camera device.
+🥺💬 Lucky I think they did it but I use RedHat for camera device and I test it with mobile networks before use.
 
 | Problem types | Description | Learning speed AI, unsupervised |
 | --- | --- | --- |
