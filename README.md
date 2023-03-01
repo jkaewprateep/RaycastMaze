@@ -4,7 +4,7 @@ RaycastMaze for current PyGame and PyDraw versions 2.1.0
 ### Game problem and re-solution ###
 Decide from game input to output ( solution ), continue of arrays with dimension ( 512, 512, 3 ) streams as running of both side of wall object and fencing random when player move with PyGame constant ```actions = { "none_1": K_h, "left_1": K_a, "down_1": K_s, "right1": K_d, "up___1": K_w }```
 
-The problem is find a red block from both side of walls, input is array of screens and action. By summing up multiple records of screen and action you can predict the result from one record input to find a red block as the game purpose.
+The problem is find a red block from both side of walls, input is array of screens and action. By summing up multiple records of screen and action you can predict the result from one record input to find a red block as the game purpose. ``` screen + action = YES|NO ``` Apply this problem, you can identify of inputs to result by adding some value as white colour to red colour ( R, G B ) arrays.
 
 ### Correct function map with PyDraw Input definition ###
 
