@@ -54,6 +54,29 @@ from ple.games.raycastmaze import RaycastMaze # Game class
 from pygame.constants import K_w, K_a, K_d, K_s, K_h # KeyPad constants
 ```
 
+### Model ###
+
+```
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+: Model Initialize
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+input_shape = (42, 42, 3)
+
+model = tf.keras.models.Sequential([
+	tf.keras.layers.InputLayer(input_shape=input_shape),
+	
+	tf.keras.layers.Reshape((1, 42 * 42 * 3)),
+	tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(128, return_sequences=True, return_state=False)),
+	tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(128, return_sequences=True))
+
+])
+		
+model.add(tf.keras.layers.Flatten())
+model.add(tf.keras.layers.Dense(192))
+model.add(tf.keras.layers.Dense(5))
+model.summary()
+```
+
 ### Files and Directory ###
 | File name | Description |
 | --- | --- |
