@@ -7,8 +7,11 @@ Decide from game input to output ( solution ), continue of arrays with dimension
 The problem is find a red block from both side of walls, input is array of screens and action. By summing up multiple records of screen and action you can predict the result from one record input to find a red block as the game purpose. ``` screen + action = YES|NO ``` Apply this problem, you can identify of inputs to result by adding some value as white colour to red colour ( R, G B ) arrays.
 
 🧸💬 Scores or not scores system depending on catagory type see this input ``` dataset = tf.constant([ DATA, LABEL ]) ``` when DATA is ``` tf.constant([ dim_1, dim_2, dim_3 ]) ``` mean single data or you can create stack input with ``` DATA = tf.experimental.numpy.vstack([DATA, DATA_row]) ```
+
 🐑💬 Masking is helpful ``` masking_layer = tf.keras.layers.Masking(mask_value=50, input_shape=(n_horizon, n_features)) ```
+
 👧💬 Sufficient resources do not waste time convert input and output shape use stack and masking, the data is remain in shape you may try to use tf.reshape to shape A and convert back with the same method it will not have the full size picture.
+
 🐐💬 You talked about that we found another sample when usin USB compatibility, camera and voice stream make sure you use it correct data transfer rates per versions.
 
 | Problem types | Description | Learning speed AI, unsupervised |
