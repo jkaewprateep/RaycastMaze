@@ -2,10 +2,15 @@
 RaycastMaze for current PyGame and PyDraw versions
 
 ### Correct function map with PyDraw Input definition ###
+
 | Functions | Description |
 | --- | --- |
 | line(surface, color, start_pos, end_pos) -> Rect | Draws a straight line on the given surface. There are no endcaps. For thick lines the ends are squared off. |
 | line(surface, color, start_pos, end_pos, width=1) -> Rect | Draws a straight line on the given surface. There are no endcaps. For thick lines the ends are squared off. |
+
+
+### raycastmaze.py ###
+
 ```
 def step(self, dt):
         self.screen.fill((0, 0, 0))
@@ -33,6 +38,8 @@ def step(self, dt):
                 self.score += self.rewards["win"]
                 self.is_game_over = True
 ```
+
+### RaycastMaze.py ###
 
 ```
 import ple
